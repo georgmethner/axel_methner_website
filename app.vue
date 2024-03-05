@@ -1,5 +1,15 @@
+<script lang="ts" setup>
+
+definePageMeta({
+  layout: 'default'
+})
+</script>
+
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <NuxtLayout>
+    <NuxtPage/>
+  </NuxtLayout>
 </template>
+
+
+
