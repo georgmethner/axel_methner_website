@@ -18,7 +18,7 @@
 
 
       <div
-          class="w-1/2 h-full inline-flex flex-row-reverse divide-x-2 divide-x-reverse divide-gray-700 decoration-gray-400">
+          class="w-1/2 h-full inline-flex flex-row-reverse divide-x-2 divide-x-reverse divide-gray-700 decoration-2 decoration-gray-400">
 
 
         <nuxt-link class="pl-5 pr-10 my-auto flex hover:underline" to="/contact">CONTACT</nuxt-link>

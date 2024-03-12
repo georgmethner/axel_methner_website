@@ -23,8 +23,17 @@
       </svg>
     </button>
   </div>
-  <div class="h-screen bg-gray-900">
-    <div class="text-white">Title</div>
+  <div class="h-1/2 bg-gray-900 flex flex-row px-40">
+    <div class="text-gray-300 mx-auto mt-24 w-3/4 text-2xl">
+      The Methnerlab works on mitochondrial dysfunction in neurodegenerative diseases. <br>
+      We use cell lines and primary cultures, patient-derived neurons differentiated <br>
+      from induced pluripotent stem cells and fly models of neurological diseases. <br>
+      Current projects focus on the hereditary polyneuropathy Charcot-Marie-Tooth disease, <br>
+      autism spectrum disorder, Parkinson’s disease and the role of ferroptosis in Wallerian degeneration. <br>
+      The Methnerlab is mainly funded by the Deutsche Forschungsgemeinschaft and is located in <br>
+      the Institute of Molecular Medicine at the University Medical Center Mainz. <br>
+    </div>
+
 
   </div>
 </template>
