@@ -1,6 +1,6 @@
 <template>
-  <div class=" shadow-gray-400">
-    <div class="text-white border-y-2 border-gray-700 bg-gray-900 flex justify-center">
+  <div class="shadow-gray-400">
+    <div class="text-white sm:text-lg border-y-2 border-gray-700 bg-gray-900 grid grid-cols-3 md:grid-cols-6 justify-center">
       <nuxt-link class="footerButton" to="/impressum">Impressum</nuxt-link>
       <nuxt-link class="footerButton" to="/">Home</nuxt-link>
       <nuxt-link class="footerButton" to="/research">Research</nuxt-link>
@@ -18,7 +18,7 @@
 
 <style scoped>
 .footerButton {
-  @apply hover:underline px-5 py-1 lowercase decoration-gray-500 decoration-2;
+  @apply hover:underline px-5 py-1  lowercase decoration-gray-500 text-center  decoration-2;
 }
 </style>
 <script lang="ts" setup>
