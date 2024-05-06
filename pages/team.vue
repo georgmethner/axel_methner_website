@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="flex flex-col  text-white">
+  <div class="flex-col  text-white hidden">
     <img src="../assets/images/die_gang.jpg" alt="" class="object-contain w-screen mx-auto object_space">
     <div class="mx-auto font-bold text-4xl object_space">Members</div>
     <div class="divide-y-2 divide-gray-800">

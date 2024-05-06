@@ -1,13 +1,34 @@
-<script setup lang="ts">
-
-</script>
+<script lang="ts" setup></script>
 
 <template>
-  <div class="my-52 h-1/2 w-1/3 rounded-2xl mx-20 bg-gray-900">
-    <img src="~/assets/images/axel_methner.jpg" alt="" class="aspect-square object-cover">
+  <div class="w-screen sm:flex">
+    <img
+      alt=""
+      class="aspect-square object-cover max-h-96 p-5"
+      src="~/assets/images/axel_methner.jpg"
+    />
+    <div class="text-white text-xl p-5 sm:my-auto">
+      <div class="font-semibold text-3xl">Axel Methner, MD</div>
+      <div class="p-2">
+        Professor of Neurology <br />
+        University Medical Center Mainz <br />
+      </div>
+      <div class="font-semibold text-2xl">Visiting Address:</div>
+      <div class="pt-2 px-2">
+        Institute of Molecular Medicine <br />
+        Building 308A, first floor <br />
+      </div>
+      <nuxt-link
+        class="px-2 pb-2 text-blue-500 underline"
+        target="_blank"
+        to="https://maps.app.goo.gl/z2yEgiF1uXW2ZMsr6"
+        >Langenbeckstr. 1
+      </nuxt-link>
+      <div class="font-semibold text-2xl pt-2">Mailing Address:</div>
+      <div class="p-2">axel.methner@gmail.com</div>
+    </div>
   </div>
+
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
