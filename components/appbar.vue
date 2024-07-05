@@ -5,11 +5,11 @@ const open_menu = ref(false);
 <template>
   <div class="w-full">
     <div
-      class="border-b-2 border-gray-700 bg-gray-900 h-20 w-full shadow-2xl text-white font-semibold inline-flex flex-row relative"
+      class="border-b-2 border-gray-800 bg-gray-900 h-20 w-full shadow-2xl text-white font-semibold inline-flex flex-row relative"
     >
       <div class="w-1/2 h-full flex">
         <div class="flex">
-          <nuxt-link class="px-5 text-2xl my-auto" to="/">
+          <nuxt-link class="px-5 text-3xl my-auto" to="/">
             MethnerLab</nuxt-link
           >
         </div>
@@ -31,7 +31,7 @@ const open_menu = ref(false);
         </div>
       </div>
 
-      <div class="absolute bg-gray-900 border-2 border-gray-700 w-fit top-14 right-4 visible sm:hidden" v-if="open_menu">
+      <div class="absolute bg-gray-900 border-2 border-gray-800 text-xl w-fit top-14 right-4 visible sm:hidden" v-if="open_menu">
         <nuxt-link to="/research" @click="open_menu=false" class="p-3 h-10"> RESEARCH </nuxt-link> <br>
         <nuxt-link to="/publications" @click="open_menu=false" class="p-3 h-10"> PUBLICATIONS </nuxt-link> <br>
         <nuxt-link to="/team" @click="open_menu=false" class="p-3 h-10"> TEAM </nuxt-link> <br>
@@ -40,7 +40,7 @@ const open_menu = ref(false);
       </div>
 
       <div
-        class="hidden sm:visible w-1/2 h-full sm:inline-flex flex-row-reverse divide-x-2 divide-x-reverse divide-gray-700 decoration-2 decoration-gray-400"
+        class="hidden sm:visible w-1/2 text-xl h-full sm:inline-flex flex-row-reverse divide-x-2 divide-x-reverse divide-gray-700 decoration-2 decoration-gray-400"
       >
         <nuxt-link class="pl-5 pr-10 my-auto flex hover:underline" to="/contact"
           >CONTACT</nuxt-link

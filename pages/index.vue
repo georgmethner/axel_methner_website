@@ -1,15 +1,19 @@
 <script lang="ts" setup>
+const story = await useStoryblok('home', { version: 'draft' });
+
 
 </script>
 
 <template>
+  <StoryblokComponent v-if="story" :blok="story.content" />
+  <!--
   <div class="relative h-screen text-white">
     <img src="~/assets/images/index_bg.jpg" alt="" class="absolute opacity-70 w-screen h-screen object-cover"/>
     <appbar class="absolute"/>
     <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 	">
       <div class="w-screen text-center">
-        <div class="text-6xl font-semibold ">Methner Lab</div>
-        <div class="mt-10 object_space text-xl font-light underline decoration-gray-600">
+        <div class="text-7xl font-semibold ">MethnerLab</div>
+        <div class="mt-10 object_space text-3xl font-light underline decoration-gray-700">
           Exploring Mitochondrial Dysfunction in Neurodegeneration: Cell and Fly Models
         </div>
 
@@ -27,8 +31,8 @@
       </button>
     </div>
   </div>
-  <div class="bg-gray-900 flex flex-row object_space h-screen">
-    <div class="text-gray-300 mx-auto  md:w-3/4 md:text-xl">
+  <div class="border-t-2 border-gray-900 flex flex-row object_space ">
+    <div class="text-gray-400 mx-auto  md:w-4/6 text-2xl">
       The Methnerlab works on mitochondrial dysfunction in neurodegenerative diseases.
       We use cell lines and primary cultures, patient-derived neurons differentiated
       from induced pluripotent stem cells and fly models of neurological diseases.
@@ -40,10 +44,11 @@
 
 
   </div>
+  -->
 </template>
 
 <style scoped>
 .object_space {
-  @apply p-5 sm:p-10 md:p-20 lg:px-40 xl:px-60 text-lg;
+  @apply p-5 sm:p-10 md:p-20 lg:px-40 xl:px-60 ;
 }
 </style>

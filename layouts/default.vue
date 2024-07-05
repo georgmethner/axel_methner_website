@@ -19,7 +19,7 @@ watch(() => router.path, () => {
 <template>
   <div class="bg-gray-950 h-screen w-screen overflow-x-hidden">
     <appbar v-if="show_appbar" class="static" />
-    <div class=" flex w-screen h-52 border-gray-700 border-b-2  text-white text-3xl font-bold">
+    <div class=" flex w-screen h-52 border-gray-800 border-b-2  text-white text-3xl font-bold">
       <div class="m-auto mx-10">
         Website ist im Aufbau...
       </div>
